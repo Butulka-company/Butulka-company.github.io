@@ -1,66 +1,66 @@
-body {
-    overflow-x: hidden;
-    font-family: 'Roboto';
-    color: #324950;
-    padding:0;
-    margin: 0;
+body{
+    background: #E5E5E5;
 }
-a {
-    color: #324950;
+
+.header{
+    position: absolute;
+width: 1920px;
+height: 122px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
 }
-a:hover {
-    color: #324950;
-    text-decoration: none;
-}
-.container {
-    max-width: 1920px;
-    padding: 0 0;
-    margin: 0 auto;
-}
-.header {
-    width: 1920px;
-    height: 850px;
-}
-.logotip {
+
+
+.logotip{
+    position: absolute;
     width: 166px;
     height: 83px;
+    left: 394px;
+    top: 20px;
 }
-.head {
-    margin: auto;
-    max-width: 1130px;
-    padding-top: 20px;
-    width: 100%;
-    height: 122px;
-    display: flex;
-    justify-content: space-between;
-}
-.HeadSerch{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-}
-.search {
-    width: 350px;
-    height: 29px;
-    border-bottom: solid 1px black;
-    background: rgba(0,0,0,0);
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
 
-}
 .SearchInput{
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    left: 1165px;
+    top: 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #324950;
     background: transparent;
     border: 0;
 }
-.SerchIcon {
-    margin: 3px 0;
-    width: 18px;
-    height: 18px;
+
+.search_line{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 1165px;
+    top: 49px;
+    border: 1px solid #324950;
 }
-.Menu{
+
+.search_vector{
+    position: absolute;
+    left: 1497px;
+    top: 21px;
+
+
+}
+
+.HeadNav{
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    left: 1016px;
+    top: 74px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -68,114 +68,305 @@ a:hover {
     height:25px;
     font-weight:700;
     margin-right: auto;
-}
-.MenuItem {
-    color: #3d5e68;
-}
-.middle {
-    max-width: 1110px;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 20px;
-}
-.MiddleReturn{
-    display: flex;
-    flex-direction: row;
-    max-width: 185px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-.MiddleReturnText {
-    color: #57984C;
-    font-size: 14px;
-}
-.MiddleBack {
-    height: 8px;
-}
-.MiddleTitle {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 277px;
-    max-width: 526px;
-    width: 100%;
-}
-.MiddleTitleText {
-    font-size: 54px;
-}
-.Text {
-    font-weight: bold;
-    font-size: 54px;
-}
-.DeterminateText {
-    color: #57984C;
-    font-weight: bold;
-    font-size: 54px;
-}
-.union {
-    max-width: 47px;
-    width: 100%;
-}
-.Fruits {
-    margin: 20px 0;
-    max-width: 498px;
-    height: 86px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-
-}
-.FruitsRedText {
-    width: 80px;
-    height: 80px;
-    padding: 0;
-    margin-right: 20px;
-}
-.FruitsText {
-    font-size: 30px;
-    color: red;
-    font-weight: bold;
+    
+    
 }
 
-.OllChara {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 149px;
-    margin-bottom: 15px;
-}
-.OllCharaTitleText{
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-    color: green;
-}
-.line {
-    max-width: 183px;
-    width: 100%;
-    margin: 10px;
-    margin-left: 0;
-    margin-right: 0;
-}
-.ResistanceText {
-    margin: 0;
-    list-style: none;
-    padding-left: 0;
-}
-.PlantFruitCycleText span {
+.NavItem{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
     color: #324950;
+}
+
+.backgroundimg{
+    position: absolute;
+    width: 1448.11px;
+    height: 1332.05px;
+    left: 235.88px;
+    top: 66.87px;
+    opacity: 0.8;
+}
+.return{
+
+    position: absolute;
+    left: 405px;
+    top: 140px;
+    width: 185px;
+    height: 23px;
+
+}
+
+.BigText1{
+    position: absolute;
+    width: 526px;
+    height: 231px;
+    left: 405px;
+    top: 182px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 142.7%;
+    color: #324950;
+}
+
+.BigText2{
+    position: absolute;
+    width: 526px;
+    height: 231px;
+    left: 405px;
+    top: 250px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 142.7%;
+    color: rgba(87, 152, 76, 1);
+}
+
+.BigImg{
+    position: absolute;
+    width: 540px;
+    height: 498px;
+    left: 975px;
+    top: 182px;
+}
+
+.middle_union_x{
+    position: absolute;
+    width: 47.24px;
+    height: 6.24px;
+    left: 405px;
+    top: 453px;
+}
+
+.RedGroup{
+    position: absolute;
+    width: 498px;
+    height: 86px;
+    left: 405px;
+    top: 501px;
+
+}
+
+.Char{
+    position: absolute;
+    width: 188px;
+    height: 29px;
+    left: 405px;
+    top: 627px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #57984C;
+}
+
+.LineUnderChar{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 405px;
+    top: 668px;
+    border: 1px solid #57984C;
+}
+
+.Resist{
+    position: absolute;
+    width: 495px;
+    height: 84px;
+    left: 405px;
+    top: 692px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
     font-size: 17px;
+    line-height: 162.7%;
+    color: #324950;
 }
-.PlantFruitCycle {
-    padding-left: 15px;
+
+.TopText1{
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 405px;
+    top: 806px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;    
+    color: #57984C;
 }
-.Chara {
-    padding-left: 0;
+
+.LineUnder1{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 405px;
+    top: 847px;
+    border: 1px solid #57984C;
 }
+
+li::marker{
+    color: #57984C;
+}
+
+.ListText1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #324950;
+    left: 405px;
+    line-height: 200%;
+}
+
+.List1{
+    position: absolute;
+    width: 374px;
+    height: 102px;
+    left: 383px;
+    top:871px;
+}
+
+.TopText2{
+    position: absolute;
+    width: 52px;
+    height: 29px;
+    left: 405px;
+    top: 1003px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #57984C;
+}
+
+
+.LineUnder2{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 405px;
+    top: 1044px;
+    border: 1px solid #57984C;
+}
+
+
+.ListText2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+}
+
+.List2{
+    position: absolute;
+    width: 331px;
+    height: 102px;
+    left: 383px;
+    top: 1068px;
+}
+
+.TopText3{
+    position: absolute;
+    width: 53px;
+    height: 29px;
+    left: 975px;
+    top: 806px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #57984C;
+}
+
+
+.LineUnder3{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 975px;
+    top: 847px;
+    border: 1px solid #57984C;
+}
+
+
+.ListText3{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+    color: #324950;
+}
+
+.List3{
+    position: absolute;
+    width: 56px;
+    height: 102px;
+    left: 953px;
+    top: 871px;
+}
+
+.TopText4{
+    position: absolute;
+    width: 51px;
+    height: 29px;
+    left: 975px;
+    top: 1003px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #57984C;
+}
+
+
+.LineUnder4{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 975px;
+    top: 1044px;
+    border: 1px solid #57984C;
+}
+
+
+.ListText4{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+    color: #324950;
+}
+
+.List4{
+    position: absolute;
+    width: 31px;
+    height: 34px;
+    left: 936px;
+    top: 1068px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+    color: #324950;
+}
+
 .Image {
     max-width: 540px;
     width: 100%;
@@ -195,51 +386,71 @@ a:hover {
     width: 100%;
     margin-left: auto;
 }
-.FooterTop {
-    display: flex;
+
+.GreenButton{
+    position: absolute;
+    width: 225px;
+    height: 55px;
+    left: 1290px;
+    top: 661px;
+}
+
+.lower_navgroup{
+	background:#2D3F45; 
+	position: absolute;
+	
+width: 1920px;
+height: 76px;
+left: 0px;
+top: 1338px;
+	color: white;
+}
+
+.lower_nav{
+	position: absolute;
+	width: 724px;
+	height: 23px;
+	left: 405px;
+	top:27px;
+	display: flex;
     justify-content: space-between;
-    background-color: #2D3F45;
+	
 }
-.FooterItem {
-    color: #FFFFFF;
-    margin-right: 45px;
+
+.lower_nav-link{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 142.7%;
+	color: #FFFFFF;
 }
-.FooterLink {
-    display: flex;
-    justify-content: space-between;
+
+.social_network{
+	padding-top: 23px;
+	padding-left: 1303px;
 }
-.FooterList {
-    margin-left: 400px;
-    margin-top: 30px;
-    list-style-type: none;
-    display: flex;
-    width: 724px;
-    height: 23px;
+
+.lower_end{
+	position: absolute;
+	width:1920px;
+	height: 51px;
+	background: #324950;;
+	margin-top: 21px;
+	
 }
-.Social{
-    display:flex;
-    list-style-type: none;
-    margin-right: 400px;
+
+.text_end{
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 142.7%;
+	padding-top:18px;
+
+
+	color: #B9B9B9;
 }
-.footer {
-    width: 1920px;
-    height: 76px;
-}
-.FooterSocial {
-    margin-left: 10px;
-    margin-top: 25px;
-}
-.FooterBottom {
-    width: 1920px;
-    height: 51px;
-    background-color: #324950;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.FooterText {
-    font-size: 14px;
-    color: #B9B9B9;
-    margin: 0;
-    padding: 0;
-}
+
+
