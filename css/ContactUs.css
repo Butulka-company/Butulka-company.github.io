@@ -1,0 +1,411 @@
+body{
+    background: #E5E5E5;;
+}
+
+.header{
+    position: absolute;
+width: 1920px;
+height: 122px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+.logotip{
+    position: absolute;
+    width: 166px;
+    height: 83px;
+    left: 394px;
+    top: 20px;
+}
+
+.SearchInput{
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    left: 1165px;
+    top: 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #324950;
+    background: transparent;
+    border: 0;
+}
+
+.search_line{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 1165px;
+    top: 49px;
+    border: 1px solid #324950;
+}
+
+.search_vector{
+    position: absolute;
+    left: 1497px;
+    top: 21px;
+
+
+}
+
+.HeadNav{
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    left: 1016px;
+    top: 74px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 499px;
+    height:25px;
+    font-weight:700;
+    margin-right: auto;
+    
+    
+}
+
+.NavItem{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #324950;
+}
+
+.TopImage{
+    position: absolute;
+    width: 1920px;
+    height: 480px;
+    left: 0px;
+    top: 122px;
+}
+
+.ContactUsText{
+    position: absolute;
+    width: 221px;
+    height: 63px;
+    left: 405px;
+    top: 653px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 142.7%;
+    color: #324950;
+
+}
+
+.UnderContactUs{
+    position: absolute;
+    width: 47.24px;
+    height: 6.24px;
+    left: 405px;
+    top: 756px;
+}
+
+.InterGroup{
+    position: absolute;
+    width: 1110px;
+    height: 763px;
+    left: 405px;
+    top: 812.5px;
+}
+
+.Text{
+    position: absolute;
+    width: 178px;
+    height: 26px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #324950;
+    
+}
+
+.InputZone{
+    box-sizing: border-box;
+   
+    width: 350px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.InputZone1{
+    top:36.5px;
+    position: absolute;
+
+}
+
+.CompanyNameGroup{
+    position: absolute;
+    top:111.5px;
+}
+
+.PositionGroup{
+    position: absolute;
+    top:223.5px;
+}
+
+.CityGroup{
+    position: absolute;
+    top:335.5px;
+}
+
+.CountryGroup{
+    position: absolute;
+    top:447.5px;
+}
+
+.TelephoneGroup{
+    position: absolute;
+    top:559.5px;
+}
+
+.EmailGroup{
+    position: absolute;
+    top:671.5px;
+}
+
+
+.DropDown{
+    box-sizing: border-box;
+    position: absolute;
+    width: 635px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    top:36.5px;
+}
+
+.Information{
+    position: absolute;
+    left:475px;
+}
+
+.InformationText{
+    position: absolute;
+    width: 74px;
+    height: 26px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #324950;
+}
+
+.OtherGroup{
+    position: absolute;
+    left:475px;
+    top:111.5px;
+}
+
+.LongInputZone{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 635px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.LongInputZone1{
+    top:36.5px;
+    position: absolute;
+}
+
+.InteresedGroup{
+    position: absolute;
+    left:475px;
+    top:223.5px;
+    
+}
+
+.BigInputZone{
+    box-sizing: border-box;
+    position: absolute;
+    width: 633.9px;
+    height: 390.75px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.BigInputZone1{
+    top:36.5px;
+    position: absolute;
+}
+
+
+.CaptchaGroup{
+    position: absolute;
+    left:475px;
+    top:671px;
+}
+
+.CaptchaInputZone{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+
+.CaptchaInputZone1{
+    top:36.5px;
+    left:125px;
+    position: absolute;
+}
+
+.CaptchaImg{
+    position: absolute;
+    width: 99px;
+    height: 27px;
+    top:50px;
+    left:0;
+    mix-blend-mode: multiply;
+}
+
+.Button{
+    position: absolute;
+    width: 255px;
+    height: 55px;
+    background: #57984C;
+    border-radius: 60px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 200%;
+    color: #FFFFFF;
+    left:255px;
+}
+.Info{
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: -0.5px;
+    top: 1626px;
+    background: #FFFFFF;
+}
+
+.OurAdress{
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    left: 900.5px;
+    top: 44px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #57984C;
+}
+
+.LineUnderAdress{
+    position: absolute;
+    width: 183px;
+    height: 0px;
+    left: 868px;
+    top: 85px;
+    border: 1px solid #57984C;
+}
+
+.InfoText{
+    position: absolute;
+    width: 288px;
+    height: 104px;
+    left: 815.5px;
+    top: 102px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    text-align: center;
+    color: #324950;
+}
+
+
+
+
+
+
+
+.lower_navgroup{
+	background:#2D3F45; 
+	position: absolute;
+	width: 1920px;
+	height: 76px;
+	max-height: 76px;
+	left: 0px;
+	top: 1873px;
+	color: white;
+}
+
+.lower_nav{
+	position: absolute;
+	width: 724px;
+	height: 23px;
+	left: 405px;
+	top:27px;
+	display: flex;
+    justify-content: space-between;
+	
+}
+
+.lower_nav-link{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 142.7%;
+	color: #FFFFFF;
+}
+
+.social_network{
+	padding-top: 23px;
+	padding-left: 1303px;
+}
+
+.lower_end{
+	position: absolute;
+	width:1920px;
+	height: 51px;
+	background: #324950;;
+	margin-top: 21px;
+}
+
+.text_end{
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 142.7%;
+	padding-top:18px;
+
+
+	color: #B9B9B9;
+}
